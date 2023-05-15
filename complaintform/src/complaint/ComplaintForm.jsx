@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Box, Button, MenuItem, TextField, Typography } from "@mui/material";
 import { classification, relationship } from "./text";
 import { GoReport } from "react-icons/go";
-
+// Complaint form with general fields to generate a report
 const ComplaintForm = () => {
   const [clasificacion, setClasificacion] = useState("");
   const [victima, setVictima] = useState("");
@@ -10,9 +10,7 @@ const ComplaintForm = () => {
   const [puesto, setPuesto] = useState("");
   const [relacion, setRelacion] = useState("");
   const [response, setResponse] = useState("");
-
-  console.log(response);
-
+  // Prompt according to user story
   const prompt =
     "Genera una denuncia, donde se narran hechos de una conducta no ética de tipo: " +
     clasificacion +
@@ -23,8 +21,7 @@ const ComplaintForm = () => {
     " y su relación con la víctima es: " +
     relacion +
     ". Escribe a detalle los hechos, el lugar, la fecha, medios de contacto con el denunciante y lo hagas como si el denunciante estuviera muy molesto y preocupado por lo que va denunciar, usa listas, párrafos y títulos para segmentar todo bien.";
-  console.log({ prompt });
-
+  // Sending the prompt to the backend and obtaining a response from OpenAI
   const handleSubmit = (e) => {
     e.preventDefault();
     fetch("http://localhost:3001/", {
@@ -41,6 +38,7 @@ const ComplaintForm = () => {
 
   return (
     <>
+      {/* Form with Material UI styles */}
       <Box
         component="form"
         autoComplete="off"
