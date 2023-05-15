@@ -4,7 +4,7 @@ import { Box } from "@mui/material";
 import ComplaintForm from "./ComplaintForm";
 import "./complaint.css";
 import { TiWarning } from "react-icons/ti";
-
+// Complaints section
 const Complaint = () => {
   return (
     <div className="complaint">

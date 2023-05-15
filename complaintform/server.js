@@ -1,4 +1,4 @@
-//An a express servert to connect OpenaAI
+//An a express server to connect OpenaAI
 const OpenaAI = require('openai');
 const { Configuration, OpenAIApi } = OpenaAI;
 const express = require('express');
@@ -20,8 +20,8 @@ app.post('/', async (req, res) => {
     const response = await openai.createCompletion({
         model: "text-davinci-003",
         prompt: `${prompt}`,
-        max_tokens: 12,
-        temperature: 0,
+        max_tokens: 512,
+        temperature: 1,
     });
     console.log(response.data);
     if (response.data.choices[0].text) {
