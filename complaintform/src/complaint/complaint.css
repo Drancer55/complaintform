@@ -1,0 +1,49 @@
+/* Complaint */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Courier+Prime&family=IBM+Plex+Sans&display=swap');
+
+/* Google Fonts 
+font-family: 'Cormorant Garamond',serif;
+font-family: 'Courier Prime',monospace;
+font-family: 'IBM Plex Sans',sans-serif;
+
+*/
+.complaint{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+}
+.title{
+    background-color: black;
+    width: 99%;
+    height: 9vh;
+    margin: auto;
+    padding: 2px;
+    text-align: center;
+    color: rgb(202, 204, 204);
+    display: inline-block;
+    font-family: 'Cormorant Garamond', serif;
+}
+.subtitle{
+    text-align: justify;
+    width: 85%;
+    margin: 2vh auto;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    color: aliceblue;
+    text-shadow: black 0 0 1px;
+}
+.indication{
+    text-align: justify;
+    width: 85%;
+    margin: 2vh auto;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: rgb(243, 237, 229);
+    text-shadow: black 0 0 1px;
+}
+fieldset{
+    width: 85%;
+    margin: auto;
+    border: none;
+}
