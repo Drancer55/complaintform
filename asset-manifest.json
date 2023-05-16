@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/complaintform/static/css/main.a68dbc8f.css",
-    "main.js": "/complaintform/static/js/main.8b37ae3c.js",
+    "main.css": "/complaintform/static/css/main.c9e886c4.css",
+    "main.js": "/complaintform/static/js/main.6feaf077.js",
     "static/js/787.aff19329.chunk.js": "/complaintform/static/js/787.aff19329.chunk.js",
+    "static/media/wp12260895-luxury-black-wallpapers.jpg": "/complaintform/static/media/wp12260895-luxury-black-wallpapers.b6438192a9a8ecde319c.jpg",
     "index.html": "/complaintform/index.html",
-    "main.a68dbc8f.css.map": "/complaintform/static/css/main.a68dbc8f.css.map",
-    "main.8b37ae3c.js.map": "/complaintform/static/js/main.8b37ae3c.js.map",
+    "main.c9e886c4.css.map": "/complaintform/static/css/main.c9e886c4.css.map",
+    "main.6feaf077.js.map": "/complaintform/static/js/main.6feaf077.js.map",
     "787.aff19329.chunk.js.map": "/complaintform/static/js/787.aff19329.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a68dbc8f.css",
-    "static/js/main.8b37ae3c.js"
+    "static/css/main.c9e886c4.css",
+    "static/js/main.6feaf077.js"
   ]
 }
