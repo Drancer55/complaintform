@@ -1,6 +1,5 @@
 /* Complaint */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Courier+Prime&family=IBM+Plex+Sans&display=swap');
-
 /* Google Fonts 
 font-family: 'Cormorant Garamond',serif;
 font-family: 'Courier Prime',monospace;
@@ -11,18 +10,27 @@ font-family: 'IBM Plex Sans',sans-serif;
     display: flex;
     flex-flow: column wrap;
     margin: 0 auto;
+    background: url('../assets/background/wp12260895-luxury-black-wallpapers.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .title{
     background-color: black;
-    width: 99%;
+    width: 99.5vw;
     height: 10vh;
     margin: auto;
     padding: 2px;
     text-align: center;
-    color: rgb(202, 204, 204);
     display: inline-block;
     font-size: 2.5rem;
-    font-family: 'Cormorant Garamond', serif;
+    color: #e9cf16;
+    text-shadow: black 0 0 5px;
+    background: repeating-linear-gradient(45deg,
+    #eeff0277,
+    #eeff0277 10px,
+    #000000 10px,
+    #000000 22px);
 }
 .subtitle{
     text-align: justify;

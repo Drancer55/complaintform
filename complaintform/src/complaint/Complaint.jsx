@@ -4,13 +4,22 @@ import { Box } from "@mui/material";
 import ComplaintForm from "./ComplaintForm";
 import "./complaint.css";
 import { TiWarning } from "react-icons/ti";
+import { GiPoliceBadge } from "react-icons/gi";
+
 // Complaints section
 const Complaint = () => {
   return (
     <div className="complaint">
-      <Box sx={{ background: "#5c5959", minHeight: "100vh" }}>
+      <Box sx={{ minHeight: "100vh" }}>
         <h1 className="title">
-          Módulo de Denuncias &nbsp;
+          <GiPoliceBadge
+            style={{
+              color: "#b1b1b1",
+              margin: "auto",
+              verticalAlign: "middle",
+            }}
+          />
+          &nbsp; Módulo de Denuncias &nbsp;
           <TiWarning
             style={{
               color: "#f9f900",
